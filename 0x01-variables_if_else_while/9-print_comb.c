@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Description: 'print comb of numbers'
+ * Return: Always 0
  */
-
 int main(void)
 {
 	int n;
@@ -16,7 +15,7 @@ int main(void)
 		{
 			continue;
 		}
-		putchar('.');
+		putchar(',');
 		putchar(' ');
 	}
 	putchar('\n');
