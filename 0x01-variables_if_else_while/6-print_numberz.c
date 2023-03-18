@@ -7,14 +7,12 @@
 
 int main(void)
 {
-	int c;
+	int n;
 
-	c = 0;
-	while (c < 10)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(c + '0');
-		c++;
+		putchar(n + 48);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
